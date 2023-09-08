@@ -40,11 +40,8 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 &nbsp;
 <br>
 &nbsp;
-
-&nbsp;
 <br>
 &nbsp;
-
 <hr>
 
 
@@ -54,12 +51,14 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
      alt=""
      width="30%"  width="30%"  />
 
-
 &nbsp;
 <br>
-&nbsp;
-
+&nbsp; 
 <hr>
+
+
+
+
 
 
 ## Confrontational Machines
@@ -111,13 +110,13 @@ The <u>"Eye strain conscious monitor stand"</u> is what I would call a "[Resiste
 
  
 
-1. A monitor stand
-1. A power supply, a 5V@1A "wall-wart" should work
-1. A motor ( stepper or gear motor? )
-1. A driver chip (ULN2003A, TIP transistor or like)
-1. An ultrasonic range finder
-1. A raspberry pi, Arduino or a basic AVR chip
-1. and some code
+1.  [ ] A monitor stand
+1.  [x] A power supply, a 5V@1A "wall-wart" should work
+1.  [ ] A motor ( stepper or gear motor? )
+1.  [ ] A driver chip (ULN2003A, TIP transistor or like)
+1.  [ ] An ultrasonic range finder
+1.  [x] A raspberry pi, Arduino or a basic AVR chip
+1.  [ ] and some code
 
 ### Example of code
 
