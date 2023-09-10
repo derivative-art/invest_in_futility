@@ -15,7 +15,7 @@ author: "no one is brave enough to take the blame"
      style="float: left; margin-right: 10px;" />
 
 
-In the 1930s, the iconic and complex visual artist [Bruno Munari](https://en.wikipedia.org/wiki/Bruno_Munari) created the _Macchine Inutili_ \[Useless Machines\], an invention that's only purpose is to do something useless. Today, they might be perceived as a typical wind chime. 
+In the 1930s, the iconic and complex visual artist [Bruno Munari](https://en.wikipedia.org/wiki/Bruno_Munari) created the _Macchine Inutili_ \[Useless Machines\], an invention that's only purpose is to do something useless. Today, they might be perceived as a typical wind chime.
 
 &nbsp;
 <br>
@@ -53,7 +53,7 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 
 &nbsp;
 <br>
-&nbsp; 
+&nbsp;
 <hr>
 
 
@@ -63,37 +63,38 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 
 ## Confrontational Machines
 
-With the idea of a useless machine, what about a machine that, rather than havng no use, its prime activity is to defy its owner.
+With the idea of a useless machine, what about a machine that, rather than having no use, its prime activity is to defy its owner. Introducing the <u>"Eye strain conscious monitor stand"</u>! 
 
-The <u>"Eye strain conscious monitor stand"</u> is what I would call a "[Resistential](https://en.wikipedia.org/wiki/Resistentialism)<u> Machine</u>"
-
-
+This fits in nicely with my feeling about [Resistential](https://en.wikipedia.org/wiki/Resistentialism)  Machines
 
 
 
-## Project goal?  A performace:  Scenario
+
+
+## Project goal?  A performance:
+###  Scenario
 <hr>
 
 
 <b>INT. HOME OFFICE </b>
-<center> <b>THE SUBJECT</b></center> 
-(The subject sits at the table gets comfortable, then pulls the monitor towords themself, and start typing)
-<dd>  <i>  <span style="color:white"> ah. </span> </i> </dd> 
-
-<center> <b>THE MONITOR STAND</b></center> 
-(A short period after the monitor stand pulls sitself away.)
-
-<center> <b>THE SUBJECT</b></center> 
-(Stunded, the subject first pauses, then reaches over and pulls the monitor stand back to that comfortable place.)
-<dd>  <i>   <span style="color:white">huh? ... ah.</span> </i> </dd> 
+<center> <b>THE SUBJECT</b></center>
+(The subject sits at the table gets comfortable, then pulls the monitor towards themself, and starts typing)
+<dd>  <i>  <span style="color:white"> ah. </span> </i> </dd>
 
 <center> <b>THE MONITOR STAND</b></center>
-(Waiting for the subject to get comfortable, the stand pauses, then jerks back and pauses for a short period. The subjects freezes, then the monitor pulls back again)
+(A short period after the monitor stand pulls itself away.)
 
-<center> <b>THE SUBJECT</b></center> 
+<center> <b>THE SUBJECT</b></center>
+(Stunned, the subject first pauses, then reaches over and pulls the monitor stand back to that comfortable place.)
+<dd>  <i>   <span style="color:white">huh? ... ah.</span> </i> </dd>
+
+<center> <b>THE MONITOR STAND</b></center>
+(Waiting for the subject to get comfortable, the stand pauses, then jerks back and pauses for a short period. The subjects freezes, now confused, then the monitor pulls back again)
+
+<center> <b>THE SUBJECT</b></center>
 ( the subject thinking, "again", reaches over and pulls the stand back)
 
-<dd><i>   <span style="color:white">aah</span>    </i> </dd> 
+<dd><i>   <span style="color:white">aah</span>    </i> </dd>
 
 
 <center> <b>THE MONITOR STAND</b></center>
@@ -101,26 +102,38 @@ The <u>"Eye strain conscious monitor stand"</u> is what I would call a "[Resiste
  
 &nbsp;
 <br>
-<hr> 
+<hr>
 &nbsp;
 
-## [Materials required](#sketch)
+
+
+
+## Materials required 
 
 ### List of parts
 
- 
 
-1.  [ ] A monitor stand
-1.  [x] A power supply, a 5V@1A "wall-wart" should work
-1.  [ ] A motor ( stepper or gear motor? )
-1.  [ ] A driver chip (ULN2003A, TIP transistor or like)
-1.  [ ] An ultrasonic range finder
-1.  [x] A raspberry pi, Arduino or a basic AVR chip
-1.  [ ] and some code
+| Needed part | What to do about it|
+|---|---|
+| ____ | _____________________________________________________________________________________________|
+| A monitor stand   | got two of these  <details> <summary>click to see image</summary><a href="https://www.amazon.com/TEAMIX-Monitor-Computer-Keyboard-Organizer/dp/B0BYCHSSH8/ref=sr_1_6?keywords=monitor%2Bitem%2Bstand&qid=1693943900&sr=8-6&th=1" ><img src="images/monitor_stand.png"  width="30%"  width="30%"></a></details>|
+|An ultrasonic range finder  | got a HC-SR04 <details> <summary>click to see image</summary>     <a href="images/ping.jpeg" >    <img src="images/ping.jpeg"  width="30%"  width="30%">    </a>    </details>|
+|RaspberryPi, or embedded? | Chose the ESP12E, [Datasheet](images/ESP12E-Datasheet.pdf) <details> <summary>click to see pinout</summary><a href="images/esp32-12e.png" ><img src="images/esp32-12e.png"  width="30%"  width="30%"></a></details> |
+| Write some code?  | The [git repo](https://github.com/derivative-art/MonitorStand-escms) for this project |
+| Accelerometer sensor | ADXL3xx accelerometer failed :( |
+|A power supply, a 5V@1A "wall-wart" should work |    looking at junk  |
+|A motor ( stepper or gear motor? )                |  donations or borrowing |
+|A driver chip (ULN2003A, TIP transistor or like)  |  donations or borrowing |
+| Motion sensor |  ??? |
+
+
+
+
+
 
 ### Example of code
 
-
+> The [git repo](https://github.com/derivative-art/MonitorStand-escms) in a work in progess, but this is what I am hoping to complete
  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
  
@@ -132,7 +145,7 @@ move_back--&gt;measure_distance
 is_vibrating--&gt;|yes|wait_200
 measure_distance--&gt;|ok|wait_200
 </div>
-	
+    
  <script>
 var config = {
     startOnLoad:true,
@@ -144,33 +157,44 @@ var config = {
 };
 mermaid.initialize(config);
 window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-</script> 
-
-&nbsp;
-<br>
-&nbsp;
-Some test will be needed to confirm the speed of the motor. If its a stepper there might be more work.
+</script>
 
 
-
-
-### Example monitor stand
-
-<a href="https://www.amazon.com/TEAMIX-Monitor-Computer-Keyboard-Organizer/dp/B0BYCHSSH8/ref=sr_1_6?keywords=monitor%2Bitem%2Bstand&qid=1693943900&sr=8-6&th=1" >
-<img src="images/monitor_stand.png"  width="30%"  width="30%">
-</a>
  
 
 &nbsp;
 <br>
 &nbsp;
 
- 
-##  [Initial Sketchy Ideas](#sketch2)
- 
-## [The end](#the-end)
-### [Will it fail?](#ultimate-fail)
+<hr>
 
 
- 
+# Appendix
+## Build Events Timeline
+### September 01
+1. Created a list of parts (see below)
+
+### September 06
+
+1. Got initial code working
+    1. have web UI for debugging
+
+### September 09
+
+
+1. Acquired a monitor stand
+1. Acquired an HC-SR04 "ping" sensor.
+    1. ESP32-12e does not have 5v ( Connected an Arduino to parasite its 5V
+        1. This means we will need to hack the PSU to get 5V for the final project. <details> <summary>click to see image</summary>
+            <a href="images/esp32-hc-and-arduino.jpg" >
+            <img src="images/esp32-hc-and-arduino.jpg"  width="30%"  width="30%">
+            </a> </details>
+1. Created created the `measure_distance` function
+1. Created the `too close` conditional
+1. Created `is_vibrating` conditional ( then removed it )
+    1. Tested code an  ADXL3xx, X-Y-Z accelerometer... I think the part is broken :/
+
+
+
+
 
