@@ -191,6 +191,9 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 1.  [x] Created the `too close` conditional
 1.  [x] Created `is_vibrating` conditional ( then removed it )
     1.  [x] Tested code an  ADXL3xx, X-Y-Z accelerometer... I think the part is broken :/
+1.  [x] Created a Frizting sketch to help others understand what I was doing.
+
+
 
 
 
