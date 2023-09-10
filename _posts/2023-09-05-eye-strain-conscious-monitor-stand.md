@@ -160,27 +160,27 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 # Appendix
 ## Build Events Timeline
 ### September 01
-1. Created a list of parts (see below)
+1.  [x] Created a list of parts (see below)
 
 ### September 06
 
-1. Got initial code working
-    1. have web UI for debugging
+1.  [x] Got initial code working
+    1.  [x] have web UI for debugging
 
 ### September 09
 
 
-1. Acquired a monitor stand
-1. Acquired an HC-SR04 "ping" sensor.
-    1. ESP32-12e does not have 5v - click to see the hack <details>  
+1.  [x] Acquired a monitor stand
+1.  [x] Acquired an HC-SR04 "ping" sensor.
+    1.  [x] ESP32-12e does not have 5v - click to see the hack <details>  
             <a href="images/esp32-hc-and-arduino.jpg" >
             <img src="images/esp32-hc-and-arduino.jpg"  width="30%"  width="30%">
             </a> </details>
-        1. This means we will need to hack the PSU to get 5V for the final project. 
-1. Created created the `measure_distance` function
-1. Created the `too close` conditional
-1. Created `is_vibrating` conditional ( then removed it )
-    1. Tested code an  ADXL3xx, X-Y-Z accelerometer... I think the part is broken :/
+        1.  [x] This means we will need to hack the PSU to get 5V for the final project. 
+1.  [x] Created created the `measure_distance` function
+1.  [x] Created the `too close` conditional
+1.  [x] Created `is_vibrating` conditional ( then removed it )
+    1.  [x] Tested code an  ADXL3xx, X-Y-Z accelerometer... I think the part is broken :/
 
 
 
