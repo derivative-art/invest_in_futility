@@ -26,7 +26,7 @@ In the 1930s, the iconic and complex visual artist [Bruno Munari](https://en.wik
 
 ### Useless Machines
 
-In the 1950 this invention inspired [Marvin_Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) who created what he called the  <u>"ultimate machine"</u>, [Useless Machines](https://en.wikipedia.org/wiki/Useless_machine). The Minskey inspired devices have been know by several names, as a youth I knew them as a <u>"leave me alone box"</u>. As seem in this video, the boxes only function is to turn it self off once turned on.
+In the 1950 this invention inspired [Marvin_Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) who created what he called the  <u>"ultimate machine"</u>. The Minskey inspired devices have been know by several names. As a youth I knew them as a <u>"leave me alone box"</u> (today we know them as [Useless Machines](https://en.wikipedia.org/wiki/Useless_machine)). As seen in this video, the boxes only function is to turn it self off, once turned on.
 &nbsp;
 <br>
 &nbsp;
@@ -40,20 +40,6 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 &nbsp;
 <br>
 &nbsp;
-<br>
-&nbsp;
-<hr>
-
-
-# Work in progress, beyond this point
-
-<img src="images/wip.jpg"
-     alt=""
-     width="30%"  width="30%"  />
-
-&nbsp;
-<br>
-&nbsp;
 <hr>
 
 
@@ -63,7 +49,7 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 
 ## Confrontational Machines
 
-With the idea of a useless machine, what about a machine that, rather than having no use, its prime activity is to defy its owner. Introducing the <u>"Eye strain conscious monitor stand"</u>! 
+With the idea of a useless machine, what about a machine that, rather than having no use, its prime activity is to defy its owner. Introducing the <u>"Eye strain conscious monitor stand"</u>!
 
 This fits in nicely with my feeling about [Resistential](https://en.wikipedia.org/wiki/Resistentialism)  Machines
 
@@ -72,6 +58,8 @@ This fits in nicely with my feeling about [Resistential](https://en.wikipedia.or
 
 
 ## Project goal?  A performance:
+This performance piece uses a found object, a monitor stand, and converts it in to a robot that antagonizes its owner.
+
 ###  Scenario
 <hr>
 
@@ -108,7 +96,7 @@ This fits in nicely with my feeling about [Resistential](https://en.wikipedia.or
 
 
 
-## Materials required 
+## Materials required
 
 ### List of parts
 
@@ -116,9 +104,9 @@ This fits in nicely with my feeling about [Resistential](https://en.wikipedia.or
 | Needed part | What to do about it|
 |---|---|
 | ____ | _____________________________________________________________________________________________|
-| A monitor stand   | got two of these  <details> <summary>click to see image</summary><a href="https://www.amazon.com/TEAMIX-Monitor-Computer-Keyboard-Organizer/dp/B0BYCHSSH8/ref=sr_1_6?keywords=monitor%2Bitem%2Bstand&qid=1693943900&sr=8-6&th=1" ><img src="images/monitor_stand.png"  width="30%"  width="30%"></a></details>|
-|An ultrasonic range finder  | got a HC-SR04 <details> <summary>click to see image</summary>     <a href="images/ping.jpeg" >    <img src="images/ping.jpeg"  width="30%"  width="30%">    </a>    </details>|
-|RaspberryPi, or embedded? | Chose the ESP12E, [Datasheet](images/ESP12E-Datasheet.pdf) <details> <summary>click to see pinout</summary><a href="images/esp32-12e.png" ><img src="images/esp32-12e.png"  width="30%"  width="30%"></a></details> |
+| A monitor stand   | got two of these  - click to see  <details> <a href="https://www.amazon.com/TEAMIX-Monitor-Computer-Keyboard-Organizer/dp/B0BYCHSSH8/ref=sr_1_6?keywords=monitor%2Bitem%2Bstand&qid=1693943900&sr=8-6&th=1" ><img src="images/monitor_stand.png"  width="30%"  width="30%"></a></details>|
+|An ultrasonic range finder  | got a HC-SR04 - click to see <details> <a href="images/ping.jpeg" >    <img src="images/ping.jpeg"  width="30%"  width="30%">    </a>    </details>|
+|RaspberryPi, or embedded? | Chose the ESP12E, [Datasheet](images/ESP12E-Datasheet.pdf) - click to see <details><a href="images/esp32-12e.png" ><img src="images/esp32-12e.png"  width="30%"  width="30%"></a></details> |
 | Write some code?  | The [git repo](https://github.com/derivative-art/MonitorStand-escms) for this project |
 | Accelerometer sensor | ADXL3xx accelerometer failed :( |
 |A power supply, a 5V@1A "wall-wart" should work |    looking at junk  |
@@ -184,11 +172,11 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 
 1. Acquired a monitor stand
 1. Acquired an HC-SR04 "ping" sensor.
-    1. ESP32-12e does not have 5v ( Connected an Arduino to parasite its 5V
-        1. This means we will need to hack the PSU to get 5V for the final project. <details> <summary>click to see image</summary>
+    1. ESP32-12e does not have 5v - click to see the hack <details>  
             <a href="images/esp32-hc-and-arduino.jpg" >
             <img src="images/esp32-hc-and-arduino.jpg"  width="30%"  width="30%">
             </a> </details>
+        1. This means we will need to hack the PSU to get 5V for the final project. 
 1. Created created the `measure_distance` function
 1. Created the `too close` conditional
 1. Created `is_vibrating` conditional ( then removed it )
