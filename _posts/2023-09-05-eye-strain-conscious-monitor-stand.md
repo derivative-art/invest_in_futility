@@ -126,6 +126,13 @@ This performance piece uses a found object, a monitor stand, and converts it in 
 
 > The [git repo](https://github.com/derivative-art/MonitorStand-escms) in a work in progess, but this is what I am hoping to complete
  
+
+
+<img src="images/frizting.png"
+     alt="I am too lazy to do this in OrCad, KiCAD, so htere is is!"
+     width="30%"  width="30%"
+     style="float: left; margin-right: 10px;" />
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
  
 <div class="mermaid">graph TD
