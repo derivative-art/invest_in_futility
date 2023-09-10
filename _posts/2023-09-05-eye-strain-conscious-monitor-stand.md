@@ -36,14 +36,17 @@ src="https://www.youtube.com/embed/Z86V_ICUCD4?t=11">
 </iframe> </center>
 
 
+&nbsp;
+<br>
+&nbsp;
+ 
+> Nota Bene, there is an artist missing from the list, I forget who it is... An art installation, with a CRT, a video camera and a power outlet.  The camera is pointing to the power outlet, surveilling to see that it is not unplugged.
+
 
 &nbsp;
 <br>
 &nbsp;
-<hr>
-
-
-
+<hr> 
 
 
 
