@@ -129,7 +129,7 @@ This performance piece uses a found object, a monitor stand, and converts it in 
 
 
 <img src="images/frizting.png"
-     alt="I am too lazy to do this in OrCad, KiCAD, so htere is is!"
+     alt="I am too lazy to do this in OrCad, KiCAD, so there is is!"
      width="30%"  width="30%"
      style="float: left; margin-right: 10px;" />
 
@@ -179,7 +179,6 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 
 ### September 09
 
-
 1.  [x] Acquired a monitor stand
 1.  [x] Acquired an HC-SR04 "ping" sensor.
     1.  [x] ESP32-12e does not have 5v - click to see the hack <details>  
@@ -187,6 +186,10 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
             <img src="images/esp32-hc-and-arduino.jpg"  width="30%"  width="30%">
             </a> </details>
         1.  [x] This means we will need to hack the PSU to get 5V for the final project. 
+1.  [x] Realized that the programmer and ArduinoIDE use different naming conventions.
+    1. [x] trigPin = GPIO12 = D5 on the programmer  
+    1. [x] echoPin = GPIO5  = D17 on the programmer  
+
 1.  [x] Created the `measure_distance` function
 1.  [x] Created the `too close` conditional
 1.  [x] Created `is_vibrating` conditional ( then removed it )
