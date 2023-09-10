@@ -187,7 +187,7 @@ window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
             <img src="images/esp32-hc-and-arduino.jpg"  width="30%"  width="30%">
             </a> </details>
         1.  [x] This means we will need to hack the PSU to get 5V for the final project. 
-1.  [x] Created created the `measure_distance` function
+1.  [x] Created the `measure_distance` function
 1.  [x] Created the `too close` conditional
 1.  [x] Created `is_vibrating` conditional ( then removed it )
     1.  [x] Tested code an  ADXL3xx, X-Y-Z accelerometer... I think the part is broken :/
